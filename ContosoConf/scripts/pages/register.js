@@ -24,7 +24,7 @@ const formSubmissionAttempted = function() {
 };
 
 const addSubmitClickEventListener = function() {
-    submitButton.addEventListener("click", formSubmissionAttempted, false);
+     submitButton.addEventListener("click", formSubmissionAttempted, false);
 };
 
 addPasswordInputEventListeners();
